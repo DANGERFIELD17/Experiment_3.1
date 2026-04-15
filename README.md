@@ -1,16 +1,32 @@
-# React + Vite
+# Experiment 3.1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React login form built with React Hook Form and ready to deploy on GitHub Pages.
 
-Currently, two official plugins are available:
+## Run Locally
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```bash
+npm install
+npm run dev
+```
 
-## React Compiler
+## Deploy To GitHub Pages
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The repo is configured to deploy from the `main` branch using GitHub Actions.
 
-## Expanding the ESLint configuration
+1. Push your changes to GitHub.
+2. Open the repository on GitHub.
+3. Go to `Settings` > `Pages`.
+4. Set the source to `GitHub Actions`.
+5. Push to `main` again or run the `Deploy to GitHub Pages` workflow from the `Actions` tab.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+After the workflow finishes, the site will be available at:
+
+```text
+https://DANGERFIELD17.github.io/Experiment_3.1/
+```
+
+## Build
+
+```bash
+npm run build
+```
